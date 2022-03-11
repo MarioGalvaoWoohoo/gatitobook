@@ -4,7 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+Comando para rodar o front
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Comando para rodar o backend API
+Baixar tambem a API gatitobook https://github.com/MarioGalvaoWoohoo/api-gatitobook.git 
+Run o comando json-server db.json dentro do diretório api. Isso em outra aba do terminal para consumir os dados JSON para os dados mokados. Poderá acessar pelo
+
+Home http://localhost:3000
+
+OBS: Deverá rodar os dois ambientes ng serve e json-server db.json simultaneamente. Pois isso digo para abrir duas abas de terminal no VS CODE.
+
 
 ## Code scaffolding
 
